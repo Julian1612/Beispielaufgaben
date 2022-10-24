@@ -23,8 +23,10 @@ int main(void)
 	// In der Schleife wird der Code immer in einer Schleife ausgeführt.
 	while (1)
 	{
+		// printf ist um text und variablen im standart output aus zu geben
 		printf("Bitte, Betrag angeben: \n");
 		fflush(stdout);
+		// scanf wird genutzt um varibalen im laufenden Programm Werte zu zuweisen
 		scanf("%f", &investment);
 		printf("Bitte, Zinsatz angeben: \n");
 		fflush(stdout);
