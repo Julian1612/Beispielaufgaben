@@ -17,7 +17,9 @@ int main(void)
 	float	amount;
 	char	c;
 
-	// While schleife wiederholt sich solange bis 'break' gecalled wird.
+	// While schleife wiederholt sich solange bis die Bedingung
+	// in den Klammern nicht mehr true ist (was hier nie eintrift weil die Bedinung 1 ist also immer 'true')
+	// oder 'break' gecalled wird
 	// In der Schleife wird der Code immer in einer Schleife ausgeführt.
 	while (1)
 	{
