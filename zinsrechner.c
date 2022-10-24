@@ -1,7 +1,5 @@
 // Die Klassen die benutzt wurden
 #include <stdio.h>
-#include <math.h>
-#include <ctype.h>
 
 float	calculate_amount(float investment, float rate, float years);
 
