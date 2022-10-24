@@ -40,8 +40,8 @@ int main(void)
 		fflush(stdout);
 		scanf(" %c", &c);
 		// Wenn der eingegebene Wert von der char varibale 'c'
-		// 'n' ist wird die if Bedinung 'true' und die While-Schleife
-		// wird abgebrochen.
+		// 'n' ist (weil 'n' eingegeben wurde) wird die if Bedinung 'true'
+		// und die While-Schleife wird abgebrochen.
 		if (c == 'n')
 		{
 			break ;
