@@ -6,7 +6,7 @@
 float	calculate_amount(float investment, float rate, float years);
 
 // Das Hauptprogramm
-int main()
+int main(void)
 {
 	// Die Varibalen die für das Programm benutzt werden.
 	// 'float' ist der Datentyp der Variable. 'investment', 'rate' usw.
@@ -42,10 +42,10 @@ int main()
 		// wird abgebrochen.
 		if (c == 'n')
 		{
-			break;
+			break ;
 		}
 	}
-	return(0);
+	return (0);
 }
 
 // Wenn die Funktion im Main programm gecalled wird, wird der Code der in dieser,
@@ -57,5 +57,5 @@ float	calculate_amount(float investment, float rate, float years)
 	{
 		investment = investment * (1 + (rate / 100));
 	}
-	return(investment);
+	return (investment);
 }
